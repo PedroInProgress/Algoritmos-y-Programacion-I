@@ -23,7 +23,7 @@ class Rebote {
 			}
 			
 			// si el if no esta, la nave mueve para arriba 'pasos' veces, detecta que hay un asteroide
-			// pero igual avanza hasta abajo y recien ahi para
+			// pero igual avanza hasta abajo y recien ahi para (porque el while chequea la condicion arriba nomas)
 			// y el ejercicio dice que tiene que parar si encuentra un obstaculo
 			for(int i=0;i<pasos;i++){
 				
